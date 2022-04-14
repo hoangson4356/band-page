@@ -1,0 +1,95 @@
+/*Reponsive*/
+/*Pc*/
+@media (min-width: 1024px) {
+
+}
+
+/*Tablet*/
+@media (max-width: 1023px) and (min-width: 740px) {
+
+}
+
+/*Mobile*/
+@media (max-width: 739px) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt8 {
+        margin-top: 8px !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav li a {
+        display: block;
+    }
+    #nav > li > a {
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        position: initial;
+    }
+    .subnav li a {
+        color: #fff;
+        display: block;
+        padding: 1px 41px;
+        background-color: #bbb;
+    }
+    .search-btn {
+        display: none;
+    }
+    .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .mobile-menu-btn {
+        display: block;
+    }
+    #content .member-list img {
+        width: 60% ;
+    }
+    .tour-section .place-container {
+        margin-top: 16px;
+    }
+    .btn {
+        text-align: center;
+    }
+}
+/*Tablet & Mobile*/
+@media (max-width: 1023px) {
+    .btn {
+        padding: 11px 16px !important;
+    }
+    .infor-contact-form {
+        line-height: 1.8;
+    }
+    .contact-form .form-control {
+        padding: 11px;
+    }
+    .media-list li a {
+        margin: 0 8px;
+    }
+    #footer p a {
+        padding: 11px 0;
+    }
+    .contact-form a {
+        color: #0000ee;
+        opacity: 0.8;
+        display: inline-block;
+        padding: 11px 0;
+    }
+    .contact-form a:hover {
+        opacity: 1;
+    }
+}
